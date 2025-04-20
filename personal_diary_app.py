@@ -24,8 +24,8 @@ def register():
 
 def login():
     st.sidebar.title("🔐 Login")
-    username = st.sidebar.text_input("Choose a username")
-    password = st.sidebar.text_input("Choose a password", type="password")
+    username = st.sidebar.text_input("Enter your username")
+    password = st.sidebar.text_input("Entry your password", type="password")
     
     user_file = f"users/{username}.txt"
     if username and password:
@@ -120,6 +120,9 @@ def main():
         
         else:
             st.warning("Please log in to continue.")
+    
+    st.markdown("""<hr style="margin-top: 20px;">
+    <center><p style='font-size:20px;'>🤖 Made by <strong>Muhammad Usman Khan</strong></p></center>""", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
