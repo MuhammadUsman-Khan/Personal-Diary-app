@@ -8,9 +8,3 @@ A simple and secure personal diary app built using **Streamlit** and **MySQL**. 
 - Password change functionality
 - Uses MySQL for persistent data storage
 
-## 🛠️ Installation
-
-1. Clone the repo:
-```bash
-git clone https://github.com/your-username/personal-diary-app.git
-cd personal-diary-app
